@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(61, 92%, 47%);
+    margin: 0;
+}
+
+.box {
+    background: rgb(227, 235, 247);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgb(4, 236, 55);
+    width: 300px;
+    text-align: center;
+}
+
+#fileList {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#fileList div {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #2190ac;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgba(241, 8, 8, 0.918);
+}
